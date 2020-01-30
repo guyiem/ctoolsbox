@@ -1,0 +1,3 @@
+
+all:
+	gcc-7 -O3 -std=c99 -Wall -ffast-math window.c  vec_array.c zone.c pfg.c $(cible) -lfftw3 -lgsl -lgslcblas -lm -lSDL2 -fopenmp -o main
